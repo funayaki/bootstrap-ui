@@ -1,9 +1,9 @@
 {
-    "name": "friendsofcake/bootstrap-ui",
+    "name": "funayaki/bootstrap-ui",
     "description": "Twitter Bootstrap 3 support for CakePHP 3",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "twitter", "bootstrap"],
-    "homepage": "http://github.com/friendsofcake/bootstrap-ui",
+    "homepage": "http://github.com/funayaki/bootstrap-ui",
     "license": "MIT",
     "authors": [
         {
@@ -24,8 +24,8 @@
         "phpunit/phpunit": "^5.7.14|^6.0"
     },
     "support": {
-        "issues": "http://github.com/friendsofcake/bootstrap-ui/issues",
-        "source": "http://github.com/friendsofcake/bootstrap-ui"
+        "issues": "http://github.com/funayaki/bootstrap-ui/issues",
+        "source": "http://github.com/funayaki/bootstrap-ui"
     },
     "autoload": {
         "psr-4": {
