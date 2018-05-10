@@ -1,16 +1,16 @@
 # Bootstrap UI
 
-[![Build Status](https://img.shields.io/travis/FriendsOfCake/bootstrap-ui/master.svg?style=flat-square)](https://travis-ci.org/FriendsOfCake/bootstrap-ui)
-[![Coverage Status](https://img.shields.io/coveralls/FriendsOfCake/bootstrap-ui/master.svg?style=flat-square)](https://coveralls.io/r/FriendsOfCake/bootstrap-ui?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/friendsofcake/bootstrap-ui.svg?style=flat-square)](https://packagist.org/packages/friendsofcake/bootstrap-ui)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://packagist.org/packages/friendsofcake/bootstrap-ui)
+[![Build Status](https://img.shields.io/travis/funayaki/bootstrap-ui/master.svg?style=flat-square)](https://travis-ci.org/funayaki/bootstrap-ui)
+[![Coverage Status](https://img.shields.io/coveralls/funayaki/bootstrap-ui/master.svg?style=flat-square)](https://coveralls.io/r/funayaki/bootstrap-ui?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/funayaki/bootstrap-ui.svg?style=flat-square)](https://packagist.org/packages/funayaki/bootstrap-ui)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://packagist.org/packages/funayaki/bootstrap-ui)
 
-Transparently use [Bootstrap 3][twbs3] with [CakePHP 3][cakephp].
+Transparently use [AdminLTE 2][adminlte2] with [CakePHP 3][cakephp].
 
 ## Requirements
 
 * CakePHP 3.x
-* Bootstrap 3.x
+* AdminLTE 2.x
 * jQuery 1.9+
 
 ## What's included?
@@ -28,7 +28,7 @@ Transparently use [Bootstrap 3][twbs3] with [CakePHP 3][cakephp].
 `cd` to the root of your app folder (where the `composer.json` file is) and run the following command:
 
 ```
-composer require friendsofcake/bootstrap-ui
+composer require funayaki/bootstrap-ui
 ```
 
 Then load the plugin by adding the following to your app's `config/boostrap.php`:
@@ -124,7 +124,7 @@ When using the BootstrapUI layout (or a copy of it), extra layout types (directl
 Bootstrap examples). You just need to copy them to your application's layouts directory:
 
 ```
-cp -R vendor/friendsofcake/bootstrap-ui/src/Template/Layout/examples src/Template/Layout/TwitterBootstrap
+cp -R vendor/funayaki/bootstrap-ui/src/Template/Layout/examples src/Template/Layout/TwitterBootstrap
 ```
 
 You can then simply extend them in your views like so:
@@ -316,7 +316,7 @@ chmod 755 .git/hooks/pre-commit
 
 ## Bugs & Feedback
 
-http://github.com/friendsofcake/bootstrap-ui/issues
+http://github.com/funayaki/bootstrap-ui/issues
 
 ## License
 
@@ -326,5 +326,5 @@ Copyright (c) 2015, Jad Bitar and licensed under [The MIT License][mit].
 [composer]:http://getcomposer.org
 [composer:ignore]:http://getcomposer.org/doc/faqs/should-i-commit-the-dependencies-in-my-vendor-directory.md
 [mit]:http://www.opensource.org/licenses/mit-license.php
-[twbs3]:http://getbootstrap.com
+[adminlte2]:https://adminlte.io
 [bower]:http://bower.io
