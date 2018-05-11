@@ -52,7 +52,7 @@ class PaginatorHelper extends \Cake\View\Helper\PaginatorHelper
      */
     public function numbers(array $options = [])
     {
-        $class = 'pagination';
+        $class = 'pagination pagination-sm no-margin pull-right';
 
         $options += [
             'class' => $class,
